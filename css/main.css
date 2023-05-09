@@ -127,8 +127,7 @@ body {
     word-wrap: break-word;
 }
 
-.calc_body {
-}
+
 
 .calc__table {
     margin: auto;
@@ -194,3 +193,4 @@ body {
         padding: 10vw 0;
     }
 }
+
