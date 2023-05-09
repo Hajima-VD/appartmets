@@ -76,8 +76,8 @@ body {
 }
 
 .img_link {
-    height: 35%;
-    width: 35%;
+    height: 40%;
+    width: 40%;
     border: 2px solid var(--bg-bege-border-2);
 
 }
@@ -173,5 +173,24 @@ body {
     max-width: 10vw;
     word-wrap: break-word;
 }
-.tel {
+@media (max-width: 1000px) {
+    .img_link {
+        height: 45%;
+        width: 45%;
+        border: 2px solid var(--bg-bege-border-2);
+    }
+    .header__menu {
+        padding: 1vw 8vw;
+        background-color: var(--bg-bege-2);
+        width: 100vw;
+        height: 8vw;
+        border: 2px solid var(--bg-bege-border-2);
+        font-size: 2vw;
+        text-transform: uppercase
+    }
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 8vw 0;
+    }
 }
