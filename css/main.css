@@ -1,0 +1,128 @@
+:root {
+    --text-wite: #ffffff;
+    --text-wite-sec: #e5e5e5;
+    --bg-bege-1: rgb(222, 217, 210);
+    --bg-bege-2: rgb(236, 216, 189);
+    --bg-bege-3: rgb(237, 202, 158);
+    --bg-bege-4: rgb(227, 160, 85);
+    --bg-bege-border-1: rgb(218, 151, 63);
+    --bg-bege-border-2: rgb(116, 80, 32);
+    --text-dark-bege: rgb(131, 71, 3);
+    --text-grey: #999999;
+    --bg-color: #141619;
+    --bg-color-red: #d90000;
+    --color-darck: #000000;
+    --color-hover: rgba(255, 255, 255, 0.3);
+}
+
+body {
+    background-color: var(--bg-bege-1);
+    font-size: 1.5vw;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex_left {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10%;
+}
+
+.flex_right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.flex_sb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 6vw 0;
+}
+
+.static {
+    position: fixed;
+}
+
+.header__menu {
+    padding: 1vw 8vw;
+    background-color: var(--bg-bege-2);
+    width: 100vw;
+    height: 5vw;
+    border: 2px solid var(--bg-bege-border-2);
+    font-size: 1.7vw;
+    text-transform: uppercase
+}
+
+.flex_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.img_link {
+    height: 35%;
+    width: 35%;
+    border: 2px solid var(--bg-bege-border-2);
+
+}
+
+.img_img {
+    background-size: cover;
+}
+
+.img_title {
+    text-align: center;
+    margin: 2vw;
+    font-size: 1.7vw;
+    text-transform: uppercase
+}
+
+.table__border {
+    border: 2px solid var(--bg-bege-border-2);
+
+}
+
+.contacts_table {
+    margin: auto;
+}
+
+.contacts__table_sting {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+}
+
+.table__Name {
+    padding: 0.5vw;
+    max-width: 30vw;
+    word-wrap: break-word;
+}
+
+.table__tel {
+    padding: 0.5vw;
+    max-width: 10vw;
+    word-wrap: break-word;
+}
+
+.table_discription {
+    max-width: 100%;
+    padding: 0.5vw;
+    max-width: 60vw;
+    word-wrap: break-word;
+}
