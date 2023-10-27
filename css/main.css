@@ -162,6 +162,15 @@ body {
     word-wrap: break-word;
 }
 
+.new_app{
+    padding: 1vw 8vw;
+    margin: 1.5vw 5vw;
+    background-color: var(--bg-bege-2);
+    border: 2px solid var(--bg-bege-border-2);
+    font-size: 2vw;
+    text-transform: uppercase ;
+    text-align: center;
+}
 @media (max-width: 1000px) {
     .img_link {
         height: 45%;
@@ -176,6 +185,15 @@ body {
         border: 2px solid var(--bg-bege-border-2);
         font-size: 2.3vw;
         text-transform: uppercase
+    }
+    .new_app{
+        padding: 1vw 8vw;
+        margin: 1.5vw 5vw;
+        background-color: var(--bg-bege-2);
+        border: 2px solid var(--bg-bege-border-2);
+        font-size: 2.4vw;
+        text-transform: uppercase ;
+        text-align: center;
     }
     .container {
         width: 90%;
